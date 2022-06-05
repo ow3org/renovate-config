@@ -1,4 +1,4 @@
-name: Tag Release
+name: Release
 
 on:
   push:
@@ -6,8 +6,8 @@ on:
       - '*'
 
 jobs:
-  tag-release:
-    name: Tagged Release
+  release:
+    name: Release
     runs-on: ubuntu-latest
 
     steps:
