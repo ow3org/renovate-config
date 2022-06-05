@@ -1,3 +1,12 @@
+## [0.2.3](https://github.com/openwebstacks/renovate-config/compare/v0.2.2...v0.2.3) (2022-06-05)
+
+
+### Bug Fixes
+
+* remove build step from release action ([c843910](https://github.com/openwebstacks/renovate-config/commit/c843910f1e167ff2313c988663dc788f8be3dc53))
+
+
+
 ## [0.2.2](https://github.com/openwebstacks/renovate-config/compare/v0.2.1...v0.2.2) (2022-06-05)
 
 
