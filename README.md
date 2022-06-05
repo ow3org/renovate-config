@@ -1,6 +1,6 @@
-# Renovate Bot Meema Preset
+# Renovate Bot — Open Web Preset
 
-Meema presets for the [Renovate](https://github.com/renovatebot/renovate) bot.
+Open Web preset for the [Renovate bot](https://github.com/renovatebot/renovate).
 
 ## Usage 💡
 
@@ -9,7 +9,7 @@ Add this into your `renovate.json` file:
 ```json
 {
   "extends": [
-    "@meemalabs"
+    "@ow3"
   ]
 }
 ```
@@ -23,4 +23,4 @@ Add this into your `renovate.json` file:
 
 The MIT License (MIT). Please see [LICENSE](LICENSE.md) for more information.
 
-Made with ❤️ by Meema Labs & many thanks to the Nuxt.js team for their work!
+Made with ❤️
