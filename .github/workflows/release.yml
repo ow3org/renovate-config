@@ -26,12 +26,6 @@ jobs:
           cache: pnpm
           registry-url: 'https://registry.npmjs.org'
 
-      - name: Install Dependencies
-        run: pnpm install
-
-      - name: pnpm build
-        run: pnpm run build
-
       - name: Publish to npm
         run: pnpm publish --access public --no-git-checks
         env:
