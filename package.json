@@ -1,6 +1,6 @@
 {
   "name": "@ow3/renovate-config",
-  "version": "0.2.3",
+  "version": "0.2.4",
   "packageManager": "pnpm@7.1.8",
   "description": "Open Web Stacks preset for the Renovate bot.",
   "author": "Chris Breuer",

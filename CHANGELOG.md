@@ -1,3 +1,12 @@
+## [0.2.4](https://github.com/openwebstacks/renovate-config/compare/v0.2.3...v0.2.4) (2022-06-05)
+
+
+### Bug Fixes
+
+* remove pnpm cache from action ([68b09ff](https://github.com/openwebstacks/renovate-config/commit/68b09ff451affdf70fccdbb7dde0a4b99efb5d9e))
+
+
+
 ## [0.2.3](https://github.com/openwebstacks/renovate-config/compare/v0.2.2...v0.2.3) (2022-06-05)
 
 
