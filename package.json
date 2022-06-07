@@ -1,7 +1,7 @@
 {
   "name": "@ow3/renovate-config",
   "version": "0.2.4",
-  "packageManager": "pnpm@7.1.8",
+  "packageManager": "pnpm@7.1.9",
   "description": "Open Web Stacks preset for the Renovate bot.",
   "author": "Chris Breuer",
   "license": "MIT",
@@ -38,7 +38,7 @@
   },
   "devDependencies": {
     "bumpp": "^7.1.1",
-    "renovate": "^32.74.3",
+    "renovate": "^32.78.1",
     "conventional-changelog-cli": "^2.2.2"
   },
   "publishConfig": {
