@@ -3,12 +3,12 @@ lockfileVersion: 5.4
 specifiers:
   bumpp: ^7.1.1
   conventional-changelog-cli: ^2.2.2
-  renovate: ^32.74.3
+  renovate: ^32.78.1
 
 devDependencies:
   bumpp: 7.1.1
   conventional-changelog-cli: 2.2.2
-  renovate: 32.74.3
+  renovate: 32.78.1
 
 packages:
 
@@ -2088,7 +2088,7 @@ packages:
     dev: true
 
   /concat-map/0.0.1:
-    resolution: {integrity: sha1-2Klr13/Wjfd5OnMDajug1UBdR3s=}
+    resolution: {integrity: sha512-/Srv4dswyQNBfohGpz9o6Yb3Gz3SrUDqBH5rTuhGR7ahtlbYKnVxw2bCFMRljaA7EXHaXZ8wsHdodFvbkhKmqg==}
     dev: true
 
   /console-control-strings/1.1.0:
@@ -4417,7 +4417,7 @@ packages:
     optional: true
 
   /read-pkg-up/3.0.0:
-    resolution: {integrity: sha1-PtSWaF26D4/hGNBpHcUfSh/5bwc=}
+    resolution: {integrity: sha512-YFzFrVvpC6frF1sz8psoHDBGF7fLPc+llq/8NB43oagqWkx8ar5zYtsTORtOjw9W2RHLpWP+zTWwBvf1bCmcSw==}
     engines: {node: '>=4'}
     dependencies:
       find-up: 2.1.0
@@ -4434,7 +4434,7 @@ packages:
     dev: true
 
   /read-pkg/3.0.0:
-    resolution: {integrity: sha1-nLxoaXj+5l0WwA4rGcI3/Pbjg4k=}
+    resolution: {integrity: sha512-BLq/cCO9two+lBgiTYNqD6GdtK8s4NpaWrl6/rCO9w0TUS8oJl7cmToOZfRYllKTISY6nt1U7jQ53brmKqY6BA==}
     engines: {node: '>=4'}
     dependencies:
       load-json-file: 4.0.0
@@ -4545,8 +4545,8 @@ packages:
       - supports-color
     dev: true
 
-  /renovate/32.74.3:
-    resolution: {integrity: sha512-p2NTC/662v8+8vUfiKaazTLRxqc5/zsyFmMSJOMX5KXPRWON9A272Gl5PYdYsccHP1dBcliF2mlfu9vdPuCybg==}
+  /renovate/32.78.1:
+    resolution: {integrity: sha512-XzEe/TBptWKGHKHAyO3Zk5KuYY9pa98Mm5rybT1VzE86SCELMyNoTJbvvBSO2D2HscxTqr3dbJgFhM5U3QYw3g==}
     engines: {node: ^14.15.0 || >=16.13.0, yarn: ^1.17.0}
     hasBin: true
     dependencies:
@@ -4638,7 +4638,7 @@ packages:
     dev: true
 
   /repeat-string/1.6.1:
-    resolution: {integrity: sha1-jcrkcOHIirwtYA//Sndihtp15jc=}
+    resolution: {integrity: sha512-PV0dzCYDNfRi1jCDbJzpW7jNNDRuCOG/jI5ctQcGKt/clZD+YcPS3yIlWuTJMmESC8aevCFmWJy5wjAFgNqN6w==}
     engines: {node: '>=0.10'}
     dev: true
 
@@ -4667,7 +4667,7 @@ packages:
     dev: true
 
   /retry/0.12.0:
-    resolution: {integrity: sha1-G0KmJmoh8HQh0bC1S33BZ7AcATs=}
+    resolution: {integrity: sha512-9LkiTwjUh6rT555DtE9rTX+BKByPfrMzEAtnlEtdEwr3Nkffwiihqe2bWADg+OQRjt9gl6ICdmB/ZFDCGAtSow==}
     engines: {node: '>= 4'}
     dev: true
     optional: true
@@ -4678,7 +4678,7 @@ packages:
     dev: true
 
   /rimraf/2.4.5:
-    resolution: {integrity: sha1-7nEM5dk6j9uFb7Xqj/Di11k0sto=}
+    resolution: {integrity: sha512-J5xnxTyqaiw06JjMftq7L9ouA448dw/E7dKghkP9WpKNuwmARNNg+Gk8/u5ryb9N/Yo2+z3MCwuqFK/+qPOPfQ==}
     hasBin: true
     dependencies:
       glob: 6.0.4
