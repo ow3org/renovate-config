@@ -16,14 +16,14 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Install pnpm
-        uses: pnpm/action-setup@v2.2.2
-
-      - name: Set node
+      - name: Setup Node.js
         uses: actions/setup-node@v3
         with:
           node-version: 16.x
           registry-url: 'https://registry.npmjs.org'
+
+      - name: Enable Corepack
+        run: corepack enable
 
       - name: Publish to npm
         run: pnpm publish --access public --no-git-checks
