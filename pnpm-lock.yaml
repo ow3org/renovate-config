@@ -3,12 +3,12 @@ lockfileVersion: 5.4
 specifiers:
   bumpp: ^7.1.1
   conventional-changelog-cli: ^2.2.2
-  renovate: ^32.84.3
+  renovate: ^32.86.0
 
 devDependencies:
   bumpp: 7.1.1
   conventional-changelog-cli: 2.2.2
-  renovate: 32.84.3
+  renovate: 32.86.0
 
 packages:
 
@@ -4545,8 +4545,8 @@ packages:
       - supports-color
     dev: true
 
-  /renovate/32.84.3:
-    resolution: {integrity: sha512-VAueCi5zYpoD6l04s9a648TAZ6YeiRp4ThDA1QLBwQUcMvvlJ9VW9O9JAeDe40pi5aMhfh22mc9qdxtQmKgzMw==}
+  /renovate/32.86.0:
+    resolution: {integrity: sha512-jnJZI2Au+hn2H9RQqr0NaHnuMGolYa561olYRiata5HR09aW8rKwaUQCQrFyqSjquc8iW0w8nkvCLv3C9/4Kug==}
     engines: {node: ^14.15.0 || >=16.13.0, yarn: ^1.17.0}
     hasBin: true
     dependencies:
