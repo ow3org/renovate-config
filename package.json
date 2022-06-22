@@ -16,7 +16,7 @@
   "scripts": {
     "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s -r 0",
     "validate": "renovate-config-validator",
-    "release": "npx bumpp package.json --execute 'pnpm run changelog' --commit 'chore(release): %s' --tag --push --all"
+    "release": "npx bumpp package.json --execute 'pnpm run changelog' --commit 'chore(release): %s' --all"
   },
   "files": [],
   "renovate-config": {
