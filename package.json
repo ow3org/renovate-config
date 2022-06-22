@@ -23,7 +23,15 @@
     "default": {
       "description": "Default config for Open Web repositories",
       "extends": [
-        "config:base",
+        ":dependencyDashboard",
+        ":semanticPrefixFixDepsChoreOthers",
+        ":ignoreModulesAndTests",
+        ":autodetectPinVersions",
+        ":prHourlyLimit2",
+        ":prConcurrentLimit10",
+        "group:monorepos",
+        "group:recommended",
+        "workarounds:all",
         "group:allNonMajor",
         ":semanticCommitTypeAll(chore)"
       ],
