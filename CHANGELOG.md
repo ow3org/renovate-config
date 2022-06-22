@@ -1,3 +1,12 @@
+## [0.5.1](https://github.com/openwebstacks/renovate-config/compare/v0.5.0...v0.5.1) (2022-06-22)
+
+
+### Bug Fixes
+
+* **ci:** remove build step ([0f99ed7](https://github.com/openwebstacks/renovate-config/commit/0f99ed7467a9b735d9d417f0d08aee434e04f058))
+
+
+
 # [0.5.0](https://github.com/openwebstacks/renovate-config/compare/v0.4.0...v0.5.0) (2022-06-22)
 
 
