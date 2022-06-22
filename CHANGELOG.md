@@ -1,3 +1,12 @@
+# [0.5.0](https://github.com/openwebstacks/renovate-config/compare/v0.4.0...v0.5.0) (2022-06-22)
+
+
+### Features
+
+* **ci:** improve release action ([61711e8](https://github.com/openwebstacks/renovate-config/commit/61711e8fcad840ac29e9191070d0e9276b4ea282))
+
+
+
 # [0.4.0](https://github.com/openwebstacks/renovate-config/compare/v0.3.0...v0.4.0) (2022-06-22)
 
 
