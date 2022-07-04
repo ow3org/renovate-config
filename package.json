@@ -41,6 +41,9 @@
       "rangeStrategy": "bump",
       "npm": {
         "commitMessageTopic": "{{prettyDepType}} {{depName}}"
+      },
+      "composer": {
+        "commitMessageTopic": "{{prettyDepType}} {{depName}}"
       }
     }
   },
