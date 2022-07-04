@@ -1,3 +1,12 @@
+# [0.6.0](https://github.com/openwebstacks/renovate-config/compare/v0.5.1...v0.6.0) (2022-07-04)
+
+
+### Features
+
+* add composer support ([3b4ec9e](https://github.com/openwebstacks/renovate-config/commit/3b4ec9e80093ce3554e96e60b7db166f4778b721))
+
+
+
 ## [0.5.1](https://github.com/openwebstacks/renovate-config/compare/v0.5.0...v0.5.1) (2022-06-22)
 
 
