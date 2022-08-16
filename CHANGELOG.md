@@ -1,3 +1,7 @@
+## [0.6.1](https://github.com/openwebstacks/renovate-config/compare/v0.6.0...v0.6.1) (2022-08-16)
+
+
+
 # [0.6.0](https://github.com/openwebstacks/renovate-config/compare/v0.5.1...v0.6.0) (2022-07-04)
 
 
