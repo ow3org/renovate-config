@@ -50,7 +50,7 @@
   "devDependencies": {
     "bumpp": "^8.2.1",
     "renovate": "^32.160.2",
-    "conventional-changelog-cli": "^2.2.2"
+    "conventional-changelog-cli": "^3.0.0"
   },
   "publishConfig": {
     "access": "public",
