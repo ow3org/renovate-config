@@ -48,7 +48,7 @@
     }
   },
   "devDependencies": {
-    "bumpp": "^8.2.1",
+    "bumpp": "^9.5.2",
     "renovate": "^38.81.0",
     "conventional-changelog-cli": "^2.2.2"
   },
