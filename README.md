@@ -2,7 +2,7 @@
 
 Open Web preset for the [Renovate bot](https://github.com/renovatebot/renovate).
 
-## 💡 Usage
+## Usage
 
 Add the following into your `renovate.json` file:
 
@@ -14,13 +14,13 @@ Add the following into your `renovate.json` file:
 }
 ```
 
-## 🤝 Useful Links
+## Useful Links
 
 - [Configuration Options](https://renovatebot.com/docs/configuration-options)
 - [Renovate Presets](https://github.com/renovatebot/presets/tree/master/packages)
 
-## 📄 License
+## License
 
 The MIT License (MIT). Please see [LICENSE](LICENSE.md) for more information.
 
-Made with ❤️
+Made with 💙
