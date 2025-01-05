@@ -2,7 +2,7 @@
   "name": "@ow3/renovate-config",
   "version": "0.6.1",
   "packageManager": "pnpm@9.15.2",
-  "description": "Open Web Stacks preset for the Renovate bot.",
+  "description": "Sensible default config for Renovate",
   "author": "Chris Breuer",
   "license": "MIT",
   "homepage": "https://github.com/openwebstacks/renovate-config",
@@ -19,34 +19,6 @@
     "release": "npx bumpp package.json --execute 'pnpm run changelog' --commit 'chore(release): %s' --all"
   },
   "files": [],
-  "renovate-config": {
-    "default": {
-      "description": "Default config for Open Web repositories",
-      "extends": [
-        ":dependencyDashboard",
-        ":semanticPrefixFixDepsChoreOthers",
-        ":ignoreModulesAndTests",
-        ":autodetectPinVersions",
-        ":prHourlyLimit2",
-        ":prConcurrentLimit10",
-        "group:monorepos",
-        "group:recommended",
-        "workarounds:all",
-        "group:allNonMajor",
-        ":semanticCommitTypeAll(chore)"
-      ],
-      "meteor": {
-        "enabled": false
-      },
-      "rangeStrategy": "bump",
-      "npm": {
-        "commitMessageTopic": "{{prettyDepType}} {{depName}}"
-      },
-      "composer": {
-        "commitMessageTopic": "{{prettyDepType}} {{depName}}"
-      }
-    }
-  },
   "devDependencies": {
     "bumpp": "^9.9.2",
     "renovate": "^39.90.5",

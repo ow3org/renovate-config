@@ -1,0 +1,26 @@
+{
+  "description": "Sensible defaults for Renovate",
+  "extends": [
+    ":dependencyDashboard",
+    ":semanticPrefixFixDepsChoreOthers",
+    ":ignoreModulesAndTests",
+    ":autodetectPinVersions",
+    ":prHourlyLimit2",
+    ":prConcurrentLimit10",
+    "group:monorepos",
+    "group:recommended",
+    "workarounds:all",
+    "group:allNonMajor",
+    ":semanticCommitTypeAll(chore)"
+  ],
+  "meteor": {
+    "enabled": false
+  },
+  "rangeStrategy": "bump",
+  "npm": {
+    "commitMessageTopic": "{{prettyDepType}} {{depName}}"
+  },
+  "composer": {
+    "commitMessageTopic": "{{prettyDepType}} {{depName}}"
+  }
+}
