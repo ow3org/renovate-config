@@ -13,7 +13,7 @@
     "group:allNonMajor",
     ":semanticCommitTypeAll(chore)"
   ],
-  "ignoreDependencies": [
+  "ignoreDeps": [
     "unconfig"
   ],
   "meteor": {
