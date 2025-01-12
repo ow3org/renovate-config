@@ -9,7 +9,7 @@ Add the following into your `renovate.json` file:
 ```json
 {
   "extends": [
-    "@ow3"
+    "github>ow3org/renovate-config"
   ]
 }
 ```
