@@ -9,14 +9,14 @@ importers:
   .:
     devDependencies:
       bumpp:
-        specifier: ^9.10.0
-        version: 9.10.0
+        specifier: ^9.10.1
+        version: 9.10.1
       conventional-changelog-cli:
         specifier: ^5.0.0
         version: 5.0.0(conventional-commits-filter@5.0.0)
       renovate:
-        specifier: ^39.105.1
-        version: 39.105.1(@aws-sdk/client-sso-oidc@3.726.0(@aws-sdk/client-sts@3.726.1))(encoding@0.1.13)(typanion@3.14.0)
+        specifier: ^39.107.2
+        version: 39.107.2(@aws-sdk/client-sso-oidc@3.726.0(@aws-sdk/client-sts@3.726.1))(encoding@0.1.13)(typanion@3.14.0)
 
 packages:
 
@@ -1058,8 +1058,8 @@ packages:
   buffer@5.7.1:
     resolution: {integrity: sha512-EHcyIPBQ4BSGlvjB16k5KgAJ27CIsHY/2JBmCRReo48y9rQ3MaUzWX3KVlBa4U7MyX02HdVj0K7C3WaB3ju7FQ==}
 
-  bumpp@9.10.0:
-    resolution: {integrity: sha512-gNY3tYEGKyqW8+qtpeLQ2UfQW7G81d/vhCWNGrMlvy0Toq1LZPRs8wk9woAw8o9Tzv7pvjaF/Gno+UN3qiqNxA==}
+  bumpp@9.10.1:
+    resolution: {integrity: sha512-KG7oQmv6cz7QQwOvM3x/yPcF8+VBEtuLEEecmohNyb4+bLbtSVpJp8brjzcZYQN7UOyR4i0qIIYThnsBgP8uCA==}
     engines: {node: '>=10'}
     hasBin: true
 
@@ -1798,8 +1798,8 @@ packages:
   ieee754@1.2.1:
     resolution: {integrity: sha512-dcyqhDvX1C46lXZcVqCpK+FtMRQVdIMN6/Df5js2zouUsqG7I6sFxitIC+7KYK29KdXOLHdu9zL4sFnoVQnqaA==}
 
-  ignore@6.0.2:
-    resolution: {integrity: sha512-InwqeHHN2XpumIkMvpl/DCJVrAHgCsG5+cn1XlnLWGwtZBm8QJfSusItfrwx81CTp5agNZqpKU2J/ccC5nGT4A==}
+  ignore@7.0.0:
+    resolution: {integrity: sha512-lcX8PNQygAa22u/0BysEY8VhaFRzlOkvdlKczDPnJvrkJD1EuqzEky5VYYKM2iySIuaVIDv9N190DfSreSLw2A==}
     engines: {node: '>= 4'}
 
   immediate@3.0.6:
@@ -2640,8 +2640,8 @@ packages:
   remark@13.0.0:
     resolution: {integrity: sha512-HDz1+IKGtOyWN+QgBiAT0kn+2s6ovOxHyPAFGKVE81VSzJ+mq7RwHFledEvB5F1p4iJvOah/LOKdFuzvRnNLCA==}
 
-  renovate@39.105.1:
-    resolution: {integrity: sha512-8+Py1Bpn6EKDgKe8tuOYD/ZmYJ0bQeMw1kF8ML5jKc8NiDChck1cE7Nb5UKerAbN62FHWtfEmvCEXnpPyI6D4g==}
+  renovate@39.107.2:
+    resolution: {integrity: sha512-UPPhu0BKQ/uere/thFvom1cxIX5YrTx+MxTv3advtwPS3OPtsodErV7Y/u90I8dYFnrG9ph3icu+3B5LgoVhbg==}
     engines: {node: ^20.15.1 || ^22.11.0, pnpm: ^9.0.0}
     hasBin: true
 
@@ -5036,7 +5036,7 @@ snapshots:
       ieee754: 1.2.1
     optional: true
 
-  bumpp@9.10.0:
+  bumpp@9.10.1:
     dependencies:
       c12: 2.0.1
       cac: 6.7.14
@@ -5873,7 +5873,7 @@ snapshots:
   ieee754@1.2.1:
     optional: true
 
-  ignore@6.0.2: {}
+  ignore@7.0.0: {}
 
   immediate@3.0.6: {}
 
@@ -6778,7 +6778,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  renovate@39.105.1(@aws-sdk/client-sso-oidc@3.726.0(@aws-sdk/client-sts@3.726.1))(encoding@0.1.13)(typanion@3.14.0):
+  renovate@39.107.2(@aws-sdk/client-sso-oidc@3.726.0(@aws-sdk/client-sts@3.726.1))(encoding@0.1.13)(typanion@3.14.0):
     dependencies:
       '@aws-sdk/client-codecommit': 3.726.1
       '@aws-sdk/client-ec2': 3.726.1
@@ -6844,7 +6844,7 @@ snapshots:
       got: 11.8.6
       graph-data-structure: 4.3.0
       handlebars: 4.7.8
-      ignore: 6.0.2
+      ignore: 7.0.0
       ini: 5.0.0
       json-dup-key-validator: 1.0.3
       json-stringify-pretty-compact: 3.0.0
