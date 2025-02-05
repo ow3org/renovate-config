@@ -20,7 +20,7 @@
   },
   "files": [],
   "devDependencies": {
-    "bumpp": "^9.10.0",
+    "bumpp": "^10.0.2",
     "renovate": "^39.105.1",
     "conventional-changelog-cli": "^5.0.0"
   },
