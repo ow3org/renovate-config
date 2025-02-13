@@ -1,7 +1,7 @@
 {
   "name": "@ow3/renovate-config",
   "version": "0.6.1",
-  "packageManager": "pnpm@9.15.3",
+  "packageManager": "pnpm@9.15.5",
   "description": "Sensible default config for Renovate",
   "author": "Chris Breuer",
   "license": "MIT",
@@ -20,8 +20,8 @@
   },
   "files": [],
   "devDependencies": {
-    "bumpp": "^9.10.0",
-    "renovate": "^39.105.1",
+    "bumpp": "^9.11.1",
+    "renovate": "^39.169.3",
     "conventional-changelog-cli": "^5.0.0"
   },
   "publishConfig": {
