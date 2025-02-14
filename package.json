@@ -1,7 +1,7 @@
 {
   "name": "@ow3/renovate-config",
   "version": "0.6.1",
-  "packageManager": "pnpm@9.15.5",
+  "packageManager": "pnpm@10.4.0",
   "description": "Sensible default config for Renovate",
   "author": "Chris Breuer",
   "license": "MIT",
