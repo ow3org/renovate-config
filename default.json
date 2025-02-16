@@ -7,6 +7,8 @@
     ":autodetectPinVersions",
     ":prHourlyLimit2",
     ":prConcurrentLimit10",
+    ":label(dependencies)",
+    ":enableVulnerabilityAlerts",
     "group:monorepos",
     "group:recommended",
     "workarounds:all",
@@ -25,5 +27,14 @@
   },
   "composer": {
     "commitMessageTopic": "{{prettyDepType}} {{depName}}"
+  },
+  "labels": [
+    "dependencies",
+    "{{updateType}}"
+  ],
+  "vulnerabilityAlerts": {
+    "labels": ["security"],
+    "automerge": true,
+    "assignees": ["@renovate-bot"]
   }
 }
