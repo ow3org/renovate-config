@@ -21,7 +21,7 @@
   "files": [],
   "devDependencies": {
     "bumpp": "^10.0.3",
-    "renovate": "^39.171.1",
+    "renovate": "^44.65.5",
     "conventional-changelog-cli": "^5.0.0"
   },
   "publishConfig": {
